@@ -1,9 +1,6 @@
-# Compound Integration to Detect Shift Gaps and Empty Shifts
-This is a compound integration to solve that problem of whether any of my groups have gaps in the shifts or shifts with no members. Whilst you can do this through the web interface it relies on you going in and looking. With this new integration you can have a scheduled task kick this off every day to report on a list of groups you provide and it will message you with any gaps and empty shifts.
+# Find Incomplete Groups
+Do you have groups without members? Maybe you have forgetful group supervisors. Would you like to give them a gentle daily or weekly nudge to add members? This is the integration for you! 
 
-It's not got all the bells and whistles, it doesn't have nice message formatting etc, but should give you a great head start. It only looks for shifts that aren't consecutive so will also fire if your shifts overlap. It also needs tweaking to send you and all clear message if there are no issues. They are all easy for you to fix, I wanted you to have some of the fun!
-
-Regarding scaling, this isn't going to work for big numbers of groups as the flow designer script will timeout. How big you can go, who knows. Give it a try and see.
 
 ---------
 
@@ -31,7 +28,7 @@ The HTTP trigger receives the group name and then makes a series of queries to d
 
 # Files
 
-* [IncompleteGroups.zip](IncompleteGroups.zip) - The workflow (that has all the scripts and such).
+* [IncompleteGroups.zip](IncompleteGroups.zip) - The workflow (that has all the steps and such).
 
 
 # Installation
